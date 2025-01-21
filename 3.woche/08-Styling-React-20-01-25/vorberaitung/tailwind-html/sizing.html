@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sizing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./src/index.css" rel="stylesheet" />
+    <link href="./dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-background text-primary">
+    <div class="w-16 h-16 bg-red-500">16 birim genişlik</div>
+    <div class="w-1/2 h-16 bg-blue-500">%50 genişlik</div>
+    <div class="w-full h-16 bg-green-500">Tam genişlik</div>
+
+    <div class="min-w-1/4 bg-yellow-500">
+      Bu kutunun minimum genişliği %25
+    </div>
+
+    <div class="max-w-md bg-purple-500">
+      Bu kutunun maksimum genişliği orta boy
+    </div>
+
+
+    <div class="bg-gray-200 p-4">
+      <h1 class="text-xl font-bold mb-4">Tailwind Boyutlandırma Örnekleri</h1>
+    
+      <div class="w-1/3 h-16 bg-blue-500">%33 genişlik</div>
+      <div class="w-full h-12 bg-red-500 mt-4">Tam genişlik</div>
+      <div class="max-w-md min-h-screen bg-green-500 mt-4">
+        Maksimum genişlik ve minimum ekran yüksekliği
+      </div>
+    </div>
+
+    <div class="font-sans">Sans-serif yazı tipi</div>
+<div class="font-serif">Serif yazı tipi</div>
+<div class="font-mono">Monospace yazı tipi</div>
+
+<div class="text-xs">Küçük metin</div>
+<div class="text-lg">Büyük metin</div>
+<div class="text-4xl">Çok büyük metin</div>
+
+<div class="font-light">İnce metin</div>
+<div class="font-bold">Kalın metin</div>
+<div class="font-black">Çok kalın metin</div>
+
+<div class="bg-gray-100 p-6">
+  <h1 class="text-3xl font-bold underline text-center text-blue-700">
+    Tailwind Typography
+  </h1>
+  <p class="text-lg font-light mt-4 text-justify">
+    Bu bir yazı tipi uygulama örneğidir. Tailwind CSS, metinlerin stilini kolayca kontrol etmenizi sağlar.
+  </p>
+  <p class="text-red-500 font-semibold mt-4">Kırmızı vurgulanmış metin</p>
+</div>
+
+<div class="flex justify-center items-center h-screen">
+  <div class="bg-blue-500 text-white p-4">Merkezdeyim!</div>
+</div>
+
+<div class="grid grid-cols-3 gap-4 p-4">
+  <div class="bg-red-500 text-white p-4">1</div>
+  <div class="bg-green-500 text-white p-4">2</div>
+  <div class="bg-blue-500 text-white p-4">3</div>
+</div>
+
+<div class="relative">
+  <div class="absolute top-0 left-0 bg-yellow-500 p-4">Üstte</div>
+  <div class="bg-gray-200 p-4">Ana içerik</div>
+</div>
+
+
+<div class="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+  <header class="bg-blue-500 text-white p-6 w-full text-center">Başlık</header>
+  
+  <main class="grid grid-cols-2 gap-4 p-6">
+    <div class="bg-red-500 text-white p-6">İçerik 1</div>
+    <div class="bg-green-500 text-white p-6">İçerik 2</div>
+    <div class="bg-blue-500 text-white p-6">İçerik 3</div>
+    <div class="bg-yellow-500 text-white p-6">İçerik 4</div>
+  </main>
+  
+  <footer class="bg-gray-800 text-white p-6 w-full text-center">Altbilgi</footer>
+</div>
+
+<div class="grid grid-cols-2 gap-4 bg-gray-100 p-4">
+  <div class="flex flex-col items-center bg-blue-500 text-white p-4">
+    <p>Flex İçerik 1</p>
+    <p>Flex İçerik 2</p>
+  </div>
+  <div class="grid grid-cols-2 gap-2 bg-green-500 text-white p-4">
+    <p>Grid İçerik 1</p>
+    <p>Grid İçerik 2</p>
+  </div>
+</div>
+
+<div class="w-10 h-10 bg-blue-500 animate-pulse"></div>
+
+<div class="max-w-sm mx-auto border border-gray-300 rounded-lg shadow-lg">
+  <img src="product.jpg" alt="Ürün Resmi" class="w-full rounded-t-lg">
+  <div class="p-4">
+    <h2 class="text-lg font-bold">Ürün Adı</h2>
+    <p class="text-gray-600">$20.00</p>
+    <button class="bg-green-500 text-white px-4 py-2 mt-3 rounded hover:bg-green-700">
+      Sepete Ekle
+    </button>
+  </div>
+</div>
+
+
+<nav class="bg-gray-800 text-white">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="flex justify-between items-center py-4">
+      <a href="#" class="text-xl font-bold">Logo</a>
+      <div class="hidden md:flex space-x-4">
+        <a href="#" class="hover:text-blue-400">Ana Sayfa</a>
+        <a href="#" class="hover:text-blue-400">Hakkımızda</a>
+        <a href="#" class="hover:text-blue-400">İletişim</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+  </body>
+</html>
