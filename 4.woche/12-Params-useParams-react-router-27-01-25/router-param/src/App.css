@@ -27,7 +27,7 @@ a {
   font-size: x-large;
   font-weight: 900;
   text-decoration: none;
-  color: #eee4e4;
+  color: #271616;
 }
 
 a:hover {
@@ -36,7 +36,7 @@ a:hover {
 
 .active-link {
   font-weight: bold;
-  color: blue;
+  color: rgb(107, 15, 60);
   text-decoration: underline;
 }
 
