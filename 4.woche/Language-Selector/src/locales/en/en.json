@@ -1,0 +1,14 @@
+{
+  "welcome": "Welcome to our multi-language app!",
+  "description": "This application demonstrates how to use i18next in React.",
+  "change_language": "Change Language",
+  "placeholder_text": "Enter your name...",
+  "image_alt": "Example image in English",
+  "button_text": "Click here",
+  "extra_content": "This is an additional content in English.",
+  "header_title": "🌍 Multi-Language Application",
+  "footer_message": "Thank you for using our application."
+}
+
+
+  

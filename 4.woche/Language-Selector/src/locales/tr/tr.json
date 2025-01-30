@@ -1,0 +1,14 @@
+{
+  "welcome": "Çok dilli uygulamamıza hoş geldiniz!",
+  "description": "Bu uygulama, React'te i18next kullanımını göstermektedir.",
+  "change_language": "Dili Değiştir",
+  "placeholder_text": "Adınızı girin...",
+  "image_alt": "Örnek görsel Türkçe",
+  "button_text": "Buraya tıklayın",
+  "extra_content": "Bu, Türkçe ek bir içeriktir.",
+  "header_title": "🌍 Çok Dilli Uygulama",
+  "footer_message": "Uygulamamızı kullandığınız için teşekkürler."
+}
+
+  
+  
