@@ -1,0 +1,9 @@
+[
+    { "id": 1, "name": "Cat food", "price": 2 },
+    { "id": 2, "name": "Cat toy", "price": 5 },
+    { "id": 3, "name": "Cat bed", "price": 20 },
+    { "id": 4, "name": "Cat toilet", "price": 30 },
+    { "id": 5, "name": "Cat tree", "price": 50 },
+    { "id": 6, "name": "Cat brush", "price": 10 }
+  ]
+  
